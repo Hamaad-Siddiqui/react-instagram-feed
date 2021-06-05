@@ -1,0 +1,28 @@
+{
+  "name": "react-instagram-feed",
+  "version": "1.0.0",
+  "main": "dist/components/Feed.js",
+  "private": true,
+  "dependencies": {
+    "react-instagram-embed": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "prettier": "2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --coverage=true",
+    "eject": "react-scripts eject",
+    "dist": "npx babel --presets @babel/preset-env --presets @babel/preset-react src/ --plugins @babel/plugin-proposal-class-properties --ignore 'src/**/*.test.js' --out-dir=dist/",
+    "pretty": "npx prettier --write ."
+  }
+}
