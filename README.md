@@ -1,4 +1,4 @@
-# react-instagram-feed
+# React-Instagram-Feed
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/hamaad-siddiqui/react-instagram-feed)
 [![License][license-image]][license-url]
@@ -15,7 +15,7 @@ npm i @hamaad/react-instagram-feed
 
 ## Screenshots
 
-![Screenshot](docs/screenshot.png)
+<img src="docs/screenshot.png" width="320" alt="screenshot">
 
 
 [Live demo](https://react-instagram-feed.vercel.app/)
