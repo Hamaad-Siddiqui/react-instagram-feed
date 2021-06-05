@@ -53,4 +53,4 @@ Access token is combination of App Id and Client Token. See https://developers.f
 [npm-image]: https://img.shields.io/npm/v/@hamaad/react-instagram-feed-.svg?style=flat-square
 [npm-url]: https://www.npmjs.org/package/@hamaad/react-instagram-feed
 [license-image]: https://img.shields.io/:license-mit-blue.svg?style=flat-square
-[license-url]: https://raw.githubusercontent.com/Hamaad-Siddiqui/@hamaad/react-instagram-feed/main/LICENSE?token=AO7BLXAGHQMSSCNPKWKFFM3AXM6SI
+[license-url]: https://raw.githubusercontent.com/Hamaad-Siddiqui/@hamaad/react-instagram-feed/main/LICENSE
