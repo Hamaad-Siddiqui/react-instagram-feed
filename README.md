@@ -6,11 +6,11 @@
 React component embedding users Instagram feed
 
 ```bash
-yarn add react-instagram-feed
+yarn add @hamaad/react-instagram-feed
 
 # or
 
-npm i react-instagram-feed
+npm i @hamaad/react-instagram-feed
 ```
 
 [Live demo](https://react-instagram-feed.vercel.app/)
@@ -18,7 +18,7 @@ npm i react-instagram-feed
 ## Usage
 
 ```tsx
-import Feed from "react-instagram-feed";
+import Feed from "@hamaad/react-instagram-feed";
 
 <Feed
   userName="javascript.js"
@@ -50,7 +50,7 @@ Access token is combination of App Id and Client Token. See https://developers.f
 
 [MIT][license-url]
 
-[npm-image]: https://img.shields.io/npm/v/react-instagram-feed-.svg?style=flat-square
-[npm-url]: https://www.npmjs.org/package/react-instagram-feed
+[npm-image]: https://img.shields.io/npm/v/@hamaad/react-instagram-feed-.svg?style=flat-square
+[npm-url]: https://www.npmjs.org/package/@hamaad/react-instagram-feed
 [license-image]: https://img.shields.io/:license-mit-blue.svg?style=flat-square
-[license-url]: https://raw.githubusercontent.com/Hamaad-Siddiqui/react-instagram-feed/main/LICENSE?token=AO7BLXAGHQMSSCNPKWKFFM3AXM6SI
+[license-url]: https://raw.githubusercontent.com/Hamaad-Siddiqui/@hamaad/react-instagram-feed/main/LICENSE?token=AO7BLXAGHQMSSCNPKWKFFM3AXM6SI

@@ -74,7 +74,7 @@ var ErrorBoundary = /*#__PURE__*/function (_React$Component) {
 
 _reactDom["default"].render( /*#__PURE__*/_react["default"].createElement(ErrorBoundary, null, /*#__PURE__*/_react["default"].createElement(_Feed["default"], {
   userName: "javascript.js",
-  limit: "8",
+  limit: 8,
   clientAccessToken: process.env.REACT_APP_ACCESS_TOKEN,
   maxWidth: 320,
   maxContainerHeight: 510,
