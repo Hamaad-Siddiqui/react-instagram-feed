@@ -83,11 +83,13 @@ var Feed = /*#__PURE__*/function (_Component) {
       if (this.props.clientAccessToken === undefined) return /*#__PURE__*/_react["default"].createElement("h4", null, "clientAccessToken is undefined");
       return /*#__PURE__*/_react["default"].createElement("div", {
         style: {
+          overflowY: "auto",
+          margin: "auto",
+          padding: "1%",
           minWidth: "380px",
           maxHeight: "".concat(this.props.maxContainerHeight, "px"),
           maxWidth: "".concat(this.props.maxWidth + 60, "px")
-        },
-        className: "Feed"
+        }
       }, this.state.media.map(function (media, index) {
         return /*#__PURE__*/_react["default"].createElement(_reactInstagramEmbed["default"], {
           alt: media.alt,

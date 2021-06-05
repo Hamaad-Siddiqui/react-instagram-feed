@@ -13,6 +13,11 @@ yarn add @hamaad/react-instagram-feed
 npm i @hamaad/react-instagram-feed
 ```
 
+## Screenshots
+
+![Screenshot](docs/screenshot.png)
+
+
 [Live demo](https://react-instagram-feed.vercel.app/)
 
 ## Usage
@@ -29,7 +34,7 @@ import Feed from "@hamaad/react-instagram-feed";
   hideCaption={false}
   protocol=""
   injectScript={true}
-/>;
+/>
 ```
 
 Access token is combination of App Id and Client Token. See https://developers.facebook.com/docs/instagram/oembed/#access-tokens for more details.

@@ -39,11 +39,13 @@ class Feed extends Component {
     return (
       <div
         style={{
+          overflowY: "auto",
+          margin: "auto",
+          padding: "1%",
           minWidth: "380px",
           maxHeight: `${this.props.maxContainerHeight}px`,
           maxWidth: `${this.props.maxWidth + 60}px`,
         }}
-        className="Feed"
       >
         {this.state.media.map((media, index) => (
           <InstagramEmbed

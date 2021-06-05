@@ -38,7 +38,7 @@ ReactDOM.render(
     <Feed
       userName="javascript.js"
       limit={8}
-      clientAccessToken={process.env.REACT_APP_ACCESS_TOKEN}
+      clientAccessToken={process.env.REACT_APP_ACCESS_TOKEN_PUR}
       maxWidth={320}
       maxContainerHeight={510}
       hideCaption={false}
