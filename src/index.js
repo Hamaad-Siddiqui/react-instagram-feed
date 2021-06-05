@@ -37,7 +37,7 @@ ReactDOM.render(
   <ErrorBoundary>
     <Feed
       userName="javascript.js"
-      limit="8"
+      limit={8}
       clientAccessToken={process.env.REACT_APP_ACCESS_TOKEN}
       maxWidth={320}
       maxContainerHeight={510}
