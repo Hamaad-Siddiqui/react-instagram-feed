@@ -1,6 +1,6 @@
 # react-instagram-feed
 
-[![npm version][npm-image]][npm-url]
+![GitHub package.json version](https://img.shields.io/github/package-json/v/hamaad-siddiqui/react-instagram-feed)
 [![License][license-image]][license-url]
 
 React component embedding users Instagram feed
@@ -50,7 +50,5 @@ Access token is combination of App Id and Client Token. See https://developers.f
 
 [MIT][license-url]
 
-[npm-image]: https://img.shields.io/npm/v/@hamaad/react-instagram-feed-.svg?style=flat-square
-[npm-url]: https://www.npmjs.org/package/@hamaad/react-instagram-feed
 [license-image]: https://img.shields.io/:license-mit-blue.svg?style=flat-square
-[license-url]: https://raw.githubusercontent.com/Hamaad-Siddiqui/@hamaad/react-instagram-feed/main/LICENSE
+[license-url]: https://raw.githubusercontent.com/Hamaad-Siddiqui/react-instagram-feed/main/LICENSE
