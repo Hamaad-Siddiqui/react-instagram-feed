@@ -1,6 +1,6 @@
 # React-Instagram-Feed
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/hamaad-siddiqui/react-instagram-feed)
+[![GitHub package.json version][npm-image]][npm-url]
 [![License][license-image]][license-url]
 
 React component embedding users Instagram feed
@@ -16,7 +16,6 @@ npm i @hamaad/react-instagram-feed
 ## Screenshots
 
 <img src="docs/screenshot.png" width="320" alt="screenshot">
-
 
 [Live demo](https://react-instagram-feed.vercel.app/)
 
@@ -34,10 +33,14 @@ import Feed from "@hamaad/react-instagram-feed";
   hideCaption={false}
   protocol=""
   injectScript={true}
-/>
+/>;
 ```
 
 Access token is combination of App Id and Client Token. See https://developers.facebook.com/docs/instagram/oembed/#access-tokens for more details.
+
+### Errors
+
+If you dont see anything check the Network tab, it usually something wrong with the token...
 
 ## props
 
@@ -57,3 +60,5 @@ Access token is combination of App Id and Client Token. See https://developers.f
 
 [license-image]: https://img.shields.io/:license-mit-blue.svg?style=flat-square
 [license-url]: https://raw.githubusercontent.com/Hamaad-Siddiqui/react-instagram-feed/main/LICENSE
+[npm-url]: https://www.npmjs.com/package/@hamaad/react-instagram-feed
+[npm-image]: https://img.shields.io/github/package-json/v/hamaad-siddiqui/react-instagram-feed
