@@ -1,6 +1,6 @@
 {
   "name": "@hamaad/react-instagram-feed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component embedding users Instagram feed",
   "main": "dist/components/Feed.js",
   "repository": {

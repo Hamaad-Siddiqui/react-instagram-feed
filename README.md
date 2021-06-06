@@ -40,7 +40,7 @@ Access token is combination of App Id and Client Token. See https://developers.f
 
 ### Errors
 
-If you dont see anything check the Network tab, it usually something wrong with the token...
+If you dont see anything check the Console/Network tab, it usually something wrong with the token...
 
 ## props
 
